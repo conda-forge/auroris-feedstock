@@ -37,6 +37,7 @@ requirements:
     - datamol >=0.12.1
     - pillow
     - fsspec
+    - pyarrow
 
 test:
   imports:
