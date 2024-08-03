@@ -1,5 +1,5 @@
 {% set name = "auroris" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/auroris-{{ version }}.tar.gz
-  sha256: 22003c307c9f5cbfc0ea3a0e7203e6df24f3cc508094d3328f9cb863205d027d
+  sha256: b3e51e79f99f0d174e4d20e1e2c30bb100502bdb1881fd751ad219ada91e75f2
 
 build:
   entry_points:
